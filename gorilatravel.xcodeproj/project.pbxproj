@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57B2331C26B1A3450095CD49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B2331B26B1A3450095CD49 /* AppDelegate.swift */; };
+		57B2331E26B1A3450095CD49 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B2331D26B1A3450095CD49 /* SceneDelegate.swift */; };
+		57B2332026B1A3450095CD49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B2331F26B1A3450095CD49 /* ViewController.swift */; };
+		57B2332326B1A3450095CD49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57B2332126B1A3450095CD49 /* Main.storyboard */; };
+		57B2332526B1A3470095CD49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57B2332426B1A3470095CD49 /* Assets.xcassets */; };
+		57B2332826B1A3470095CD49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57B2332626B1A3470095CD49 /* LaunchScreen.storyboard */; };
+		57B2333326B1A3480095CD49 /* gorilatravelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B2333226B1A3480095CD49 /* gorilatravelTests.swift */; };
+		57B2333E26B1A3480095CD49 /* gorilatravelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B2333D26B1A3480095CD49 /* gorilatravelUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57B2332F26B1A3480095CD49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57B2331026B1A3450095CD49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57B2331726B1A3450095CD49;
+			remoteInfo = gorilatravel;
+		};
+		57B2333A26B1A3480095CD49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57B2331026B1A3450095CD49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57B2331726B1A3450095CD49;
+			remoteInfo = gorilatravel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57B2331826B1A3450095CD49 /* gorilatravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gorilatravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57B2331B26B1A3450095CD49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57B2331D26B1A3450095CD49 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		57B2331F26B1A3450095CD49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		57B2332226B1A3450095CD49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57B2332426B1A3470095CD49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57B2332726B1A3470095CD49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57B2332926B1A3480095CD49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57B2332E26B1A3480095CD49 /* gorilatravelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gorilatravelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57B2333226B1A3480095CD49 /* gorilatravelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gorilatravelTests.swift; sourceTree = "<group>"; };
+		57B2333426B1A3480095CD49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57B2333926B1A3480095CD49 /* gorilatravelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gorilatravelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57B2333D26B1A3480095CD49 /* gorilatravelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gorilatravelUITests.swift; sourceTree = "<group>"; };
+		57B2333F26B1A3480095CD49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57B2331526B1A3450095CD49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57B2332B26B1A3480095CD49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57B2333626B1A3480095CD49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57B2330F26B1A3450095CD49 = {
+			isa = PBXGroup;
+			children = (
+				57B2331A26B1A3450095CD49 /* gorilatravel */,
+				57B2333126B1A3480095CD49 /* gorilatravelTests */,
+				57B2333C26B1A3480095CD49 /* gorilatravelUITests */,
+				57B2331926B1A3450095CD49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57B2331926B1A3450095CD49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57B2331826B1A3450095CD49 /* gorilatravel.app */,
+				57B2332E26B1A3480095CD49 /* gorilatravelTests.xctest */,
+				57B2333926B1A3480095CD49 /* gorilatravelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57B2331A26B1A3450095CD49 /* gorilatravel */ = {
+			isa = PBXGroup;
+			children = (
+				57B2331B26B1A3450095CD49 /* AppDelegate.swift */,
+				57B2331D26B1A3450095CD49 /* SceneDelegate.swift */,
+				57B2331F26B1A3450095CD49 /* ViewController.swift */,
+				57B2332126B1A3450095CD49 /* Main.storyboard */,
+				57B2332426B1A3470095CD49 /* Assets.xcassets */,
+				57B2332626B1A3470095CD49 /* LaunchScreen.storyboard */,
+				57B2332926B1A3480095CD49 /* Info.plist */,
+			);
+			path = gorilatravel;
+			sourceTree = "<group>";
+		};
+		57B2333126B1A3480095CD49 /* gorilatravelTests */ = {
+			isa = PBXGroup;
+			children = (
+				57B2333226B1A3480095CD49 /* gorilatravelTests.swift */,
+				57B2333426B1A3480095CD49 /* Info.plist */,
+			);
+			path = gorilatravelTests;
+			sourceTree = "<group>";
+		};
+		57B2333C26B1A3480095CD49 /* gorilatravelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				57B2333D26B1A3480095CD49 /* gorilatravelUITests.swift */,
+				57B2333F26B1A3480095CD49 /* Info.plist */,
+			);
+			path = gorilatravelUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57B2331726B1A3450095CD49 /* gorilatravel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57B2334226B1A3480095CD49 /* Build configuration list for PBXNativeTarget "gorilatravel" */;
+			buildPhases = (
+				57B2331426B1A3450095CD49 /* Sources */,
+				57B2331526B1A3450095CD49 /* Frameworks */,
+				57B2331626B1A3450095CD49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gorilatravel;
+			productName = gorilatravel;
+			productReference = 57B2331826B1A3450095CD49 /* gorilatravel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57B2332D26B1A3480095CD49 /* gorilatravelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57B2334526B1A3480095CD49 /* Build configuration list for PBXNativeTarget "gorilatravelTests" */;
+			buildPhases = (
+				57B2332A26B1A3480095CD49 /* Sources */,
+				57B2332B26B1A3480095CD49 /* Frameworks */,
+				57B2332C26B1A3480095CD49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57B2333026B1A3480095CD49 /* PBXTargetDependency */,
+			);
+			name = gorilatravelTests;
+			productName = gorilatravelTests;
+			productReference = 57B2332E26B1A3480095CD49 /* gorilatravelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		57B2333826B1A3480095CD49 /* gorilatravelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57B2334826B1A3480095CD49 /* Build configuration list for PBXNativeTarget "gorilatravelUITests" */;
+			buildPhases = (
+				57B2333526B1A3480095CD49 /* Sources */,
+				57B2333626B1A3480095CD49 /* Frameworks */,
+				57B2333726B1A3480095CD49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57B2333B26B1A3480095CD49 /* PBXTargetDependency */,
+			);
+			name = gorilatravelUITests;
+			productName = gorilatravelUITests;
+			productReference = 57B2333926B1A3480095CD49 /* gorilatravelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57B2331026B1A3450095CD49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					57B2331726B1A3450095CD49 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					57B2332D26B1A3480095CD49 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 57B2331726B1A3450095CD49;
+					};
+					57B2333826B1A3480095CD49 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 57B2331726B1A3450095CD49;
+					};
+				};
+			};
+			buildConfigurationList = 57B2331326B1A3450095CD49 /* Build configuration list for PBXProject "gorilatravel" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57B2330F26B1A3450095CD49;
+			productRefGroup = 57B2331926B1A3450095CD49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57B2331726B1A3450095CD49 /* gorilatravel */,
+				57B2332D26B1A3480095CD49 /* gorilatravelTests */,
+				57B2333826B1A3480095CD49 /* gorilatravelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57B2331626B1A3450095CD49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B2332826B1A3470095CD49 /* LaunchScreen.storyboard in Resources */,
+				57B2332526B1A3470095CD49 /* Assets.xcassets in Resources */,
+				57B2332326B1A3450095CD49 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57B2332C26B1A3480095CD49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57B2333726B1A3480095CD49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57B2331426B1A3450095CD49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B2332026B1A3450095CD49 /* ViewController.swift in Sources */,
+				57B2331C26B1A3450095CD49 /* AppDelegate.swift in Sources */,
+				57B2331E26B1A3450095CD49 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57B2332A26B1A3480095CD49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B2333326B1A3480095CD49 /* gorilatravelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57B2333526B1A3480095CD49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B2333E26B1A3480095CD49 /* gorilatravelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57B2333026B1A3480095CD49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57B2331726B1A3450095CD49 /* gorilatravel */;
+			targetProxy = 57B2332F26B1A3480095CD49 /* PBXContainerItemProxy */;
+		};
+		57B2333B26B1A3480095CD49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57B2331726B1A3450095CD49 /* gorilatravel */;
+			targetProxy = 57B2333A26B1A3480095CD49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57B2332126B1A3450095CD49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57B2332226B1A3450095CD49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57B2332626B1A3470095CD49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57B2332726B1A3470095CD49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57B2334026B1A3480095CD49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		57B2334126B1A3480095CD49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57B2334326B1A3480095CD49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2YL9X64X5H;
+				INFOPLIST_FILE = gorilatravel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gorilatravel.gorilatravel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57B2334426B1A3480095CD49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2YL9X64X5H;
+				INFOPLIST_FILE = gorilatravel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gorilatravel.gorilatravel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		57B2334626B1A3480095CD49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2YL9X64X5H;
+				INFOPLIST_FILE = gorilatravelTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gorilatravel.gorilatravelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gorilatravel.app/gorilatravel";
+			};
+			name = Debug;
+		};
+		57B2334726B1A3480095CD49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2YL9X64X5H;
+				INFOPLIST_FILE = gorilatravelTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gorilatravel.gorilatravelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gorilatravel.app/gorilatravel";
+			};
+			name = Release;
+		};
+		57B2334926B1A3480095CD49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2YL9X64X5H;
+				INFOPLIST_FILE = gorilatravelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gorilatravel.gorilatravelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = gorilatravel;
+			};
+			name = Debug;
+		};
+		57B2334A26B1A3480095CD49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2YL9X64X5H;
+				INFOPLIST_FILE = gorilatravelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gorilatravel.gorilatravelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = gorilatravel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57B2331326B1A3450095CD49 /* Build configuration list for PBXProject "gorilatravel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57B2334026B1A3480095CD49 /* Debug */,
+				57B2334126B1A3480095CD49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57B2334226B1A3480095CD49 /* Build configuration list for PBXNativeTarget "gorilatravel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57B2334326B1A3480095CD49 /* Debug */,
+				57B2334426B1A3480095CD49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57B2334526B1A3480095CD49 /* Build configuration list for PBXNativeTarget "gorilatravelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57B2334626B1A3480095CD49 /* Debug */,
+				57B2334726B1A3480095CD49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57B2334826B1A3480095CD49 /* Build configuration list for PBXNativeTarget "gorilatravelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57B2334926B1A3480095CD49 /* Debug */,
+				57B2334A26B1A3480095CD49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57B2331026B1A3450095CD49 /* Project object */;
+}
